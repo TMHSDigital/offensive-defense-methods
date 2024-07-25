@@ -8,6 +8,8 @@ This repository provides examples of offensive security techniques, including et
 3. [Use of AI and Machine Learning](#use-of-ai-and-machine-learning)
 4. [File and Directory Structure](#file-and-directory-structure)
 
+---
+
 ## Ethical Hacking (Penetration Testing)
 
 ### Description
@@ -40,6 +42,8 @@ for host in nm.all_hosts():
             print(f'Port: {port}\tState: {nm[host][proto][port]["state"]}')
 ```
 
+---
+
 ## Digital Counter-Intelligence
 
 ### Description
@@ -66,6 +70,8 @@ pip install -r requirements.txt
 # Start Cowrie
 bin/cowrie start
 ```
+
+---
 
 ## Use of AI and Machine Learning
 
@@ -124,6 +130,8 @@ for ip in malicious_ips:
     └── block_ips.py
 ```
 
+---
+
 ### ethical_hacking/port_scanner.py
 Python script for port scanning using Nmap.
 
@@ -136,26 +144,25 @@ Python script for anomaly detection using machine learning.
 ### ai_ml/block_ips.py
 Python script for blocking malicious IPs using iptables.
 
+---
+
 ## Conclusion
 
 This repository provides a foundational understanding and practical examples of offensive security techniques. Use these tools and scripts responsibly and within the bounds of legality and ethics.
+
+---
+
 ## Contributing
 Contributions are welcome! Please read our [Contributing Guidelines](CONTRIBUTING.md) for more information.
+
+---
 
 ## Resources
 - [Books and Articles](resources/books.md)
 - [Online Courses](resources/courses.md)
 - [Tools and Utilities](resources/tools.md)
 
-## License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-## Contributing
-Contributions are welcome! Please read our [Contributing Guidelines](CONTRIBUTING.md) for more information.
-
-## Resources
-- [Books and Articles](resources/books.md)
-- [Online Courses](resources/courses.md)
-- [Tools and Utilities](resources/tools.md)
+---
 
 ## License
 This project is licensed under the "Do No Harm" License - see the [LICENSE](LICENSE) file for details.
