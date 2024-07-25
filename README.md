@@ -185,8 +185,6 @@ Contributions are welcome! Please read our [Contributing Guidelines](CONTRIBUTIN
 This project is licensed under the "Do No Harm" License - see the [LICENSE](LICENSE) file for details.
 ```
 
-### `LICENSE` File
-
 ``````
 DO NO HARM LICENSE
 
@@ -224,9 +222,6 @@ By using the software, you agree to be bound by this clause and use the software
 only for lawful and ethical purposes.
 ```
 
-### `CONTRIBUTING.md` File
-
-```markdown
 # Contributing to Offensive Security Techniques
 
 Thank you for considering contributing to this repository! We welcome contributions in the form of bug reports, feature requests, code improvements, and documentation enhancements.
