@@ -1,24 +1,15 @@
 # Offensive Security Techniques
 
-Welcome to the Offensive Security Techniques repository. This repository provides examples and educational content on offensive security, including ethical hacking, digital counter-intelligence, and AI-driven anomaly detection.
-
-![Repo Size](https://img.shields.io/github/repo-size/TMHSDigital/offensive-defense-methods)
-![Last Commit](https://img.shields.io/github/last-commit/TMHSDigital/offensive-defense-methods)
-![License](https://img.shields.io/github/license/TMHSDigital/offensive-defense-methods)
+This repository provides examples of offensive security techniques, including ethical hacking (penetration testing), digital counter-intelligence, and the use of AI and machine learning for anomaly detection and automated responses.
 
 ## Table of Contents
-1. [Introduction](#introduction)
-2. [Ethical Hacking (Penetration Testing)](#ethical-hacking-penetration-testing)
-3. [Digital Counter-Intelligence](#digital-counter-intelligence)
-4. [Use of AI and Machine Learning](#use-of-ai-and-machine-learning)
-5. [Contributing](#contributing)
-6. [Resources](#resources)
-7. [License](#license)
-
-## Introduction
-This repository aims to provide a comprehensive guide to offensive security techniques. Whether you're a beginner or an experienced professional, you'll find valuable resources and practical examples here.
+1. [Ethical Hacking (Penetration Testing)](#ethical-hacking-penetration-testing)
+2. [Digital Counter-Intelligence](#digital-counter-intelligence)
+3. [Use of AI and Machine Learning](#use-of-ai-and-machine-learning)
+4. [File and Directory Structure](#file-and-directory-structure)
 
 ## Ethical Hacking (Penetration Testing)
+
 ### Description
 Penetration testing involves simulating attacks on a system to find vulnerabilities. This section demonstrates how to use Nmap for network scanning and a Python script for port scanning.
 
@@ -50,6 +41,7 @@ for host in nm.all_hosts():
 ```
 
 ## Digital Counter-Intelligence
+
 ### Description
 Digital counter-intelligence involves tracking and monitoring attacker activities. This section demonstrates setting up a Cowrie honeypot to log brute force attacks and shell interaction performed by attackers.
 
@@ -76,6 +68,7 @@ bin/cowrie start
 ```
 
 ## Use of AI and Machine Learning
+
 ### Description
 AI and ML can be used to detect anomalies and respond to threats in real-time. This section demonstrates how to build an anomaly detection model using scikit-learn and an automated response script to block malicious IPs.
 
@@ -117,14 +110,32 @@ for ip in malicious_ips:
     print(f"Blocked IP: {ip}")
 ```
 
-## Contributing
-Contributions are welcome! Please read our [contributing guidelines](CONTRIBUTING.md) for more information.
+## File and Directory Structure
 
-## Resources
-- [Books and Articles](resources/books.md)
-- [Online Courses](resources/courses.md)
-- [Tools and Utilities](resources/tools.md)
-
-## License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+```plaintext
+.
+├── README.md
+├── ethical_hacking
+│   └── port_scanner.py
+├── digital_counter_intelligence
+│   └── setup_cowrie.sh
+└── ai_ml
+    ├── anomaly_detection.py
+    └── block_ips.py
 ```
+
+### ethical_hacking/port_scanner.py
+Python script for port scanning using Nmap.
+
+### digital_counter_intelligence/setup_cowrie.sh
+Shell script for setting up the Cowrie honeypot.
+
+### ai_ml/anomaly_detection.py
+Python script for anomaly detection using machine learning.
+
+### ai_ml/block_ips.py
+Python script for blocking malicious IPs using iptables.
+
+## Conclusion
+
+This repository provides a foundational understanding and practical examples of offensive security techniques. Use these tools and scripts responsibly and within the bounds of legality and ethics.
