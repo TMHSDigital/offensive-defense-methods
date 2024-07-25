@@ -139,3 +139,23 @@ Python script for blocking malicious IPs using iptables.
 ## Conclusion
 
 This repository provides a foundational understanding and practical examples of offensive security techniques. Use these tools and scripts responsibly and within the bounds of legality and ethics.
+## Contributing
+Contributions are welcome! Please read our [Contributing Guidelines](CONTRIBUTING.md) for more information.
+
+## Resources
+- [Books and Articles](resources/books.md)
+- [Online Courses](resources/courses.md)
+- [Tools and Utilities](resources/tools.md)
+
+## License
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+## Contributing
+Contributions are welcome! Please read our [Contributing Guidelines](CONTRIBUTING.md) for more information.
+
+## Resources
+- [Books and Articles](resources/books.md)
+- [Online Courses](resources/courses.md)
+- [Tools and Utilities](resources/tools.md)
+
+## License
+This project is licensed under the "Do No Harm" License - see the [LICENSE](LICENSE) file for details.
