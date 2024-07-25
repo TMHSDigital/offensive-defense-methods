@@ -158,4 +158,5 @@ Contributions are welcome! Please read our [Contributing Guidelines](CONTRIBUTIN
 - [Tools and Utilities](resources/tools.md)
 
 ## License
-This project is licensed under the "Do No Harm" License - see the [LICENSE](LICENSE) file for details.
+## License
+This project is licensed under the 'Do No Harm' License - see the [LICENSE](LICENSE) file for details.
